@@ -22,6 +22,6 @@ public class TwoSumPrgm {
          }
          map.put(num[i], i);
       }
-      return new int[]{-1, -1};//if not found
+      return new int[]{-1, -1};//if not found, for error case
    }
 }
