@@ -12,7 +12,7 @@ public class ProducerConsumerExecutorService {
         Runnable producerTask = () -> {
             try {
                 int value = 0;
-                while (value<10) {
+                while (value < 10) {
                     blockingQueue.put(value);
                     System.out.println("Produced: " + value);
                     value++;

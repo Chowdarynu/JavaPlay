@@ -20,8 +20,7 @@ public class Sort012 {
       Node oneD = new Node(0);
       Node twoD = new Node(0);
 
-      // Initialize current pointers for three
-      // lists and whole list.
+      // Initialize current pointers for three lists and whole list.
       Node zero = zeroD, one = oneD, two = twoD;
       // Traverse list
       Node curr = head;

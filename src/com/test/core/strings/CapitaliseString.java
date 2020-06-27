@@ -38,6 +38,6 @@ class StringFormatter {
 public class CapitaliseString {
     public static void main(String[] args) {
         System.out.println(StringFormatter.capitalizeWord("my name is khan"));
-        System.out.println(StringFormatter.capitalizeWord("I am sonoo jaiswal"));
+        System.out.println(StringFormatter.toggle("I am sonoo jaiswal"));
     }
 }
