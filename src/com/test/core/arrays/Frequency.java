@@ -18,7 +18,6 @@ public class Frequency {
             fr[i] = count;
          }
       }
-      //Displays the frequency of each element present in array
       System.out.println("---------------------------------------");
       System.out.println(" Element | Frequency");
       System.out.println("---------------------------------------");
